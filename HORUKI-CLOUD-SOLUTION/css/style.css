@@ -44,6 +44,14 @@ img{
     align-items: center;
     height: 100%;
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 /* Navbar */
 .navbar{
@@ -79,4 +87,8 @@ img{
 }
 .showcase p {
     margin: 20px 0;
+}
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
 }
