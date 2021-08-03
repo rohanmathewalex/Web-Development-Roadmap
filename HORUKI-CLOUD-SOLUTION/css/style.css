@@ -148,6 +148,10 @@ img{
     bottom: -70px;
     right: 0;
     left: 0;
-    background: red;
-
+    background: #fff;
+    transform: sKewY(-3deg);
+    /* to support all browsers */
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform:  skewY(-3deg);
 }
