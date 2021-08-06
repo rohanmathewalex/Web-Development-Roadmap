@@ -159,6 +159,12 @@ img{
 .languages .card:hover{
     transform:translateY(-15px);
 }
+/* Features */
+.features-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
+
 /* Footer */
 .footer .social a{
     margin: 0 10px;
