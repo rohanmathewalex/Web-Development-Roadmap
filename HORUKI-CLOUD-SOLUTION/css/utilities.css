@@ -94,6 +94,10 @@
 .btn:hover{
     transform: scale(0.98);
 }
+/* Alert */
+.alert{
+    background-color: green;
+}
 /* Margin */
 .my-1{
     margin: 1rem 0 ;
