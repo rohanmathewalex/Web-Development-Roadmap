@@ -9,6 +9,8 @@
     --secondary-color:#1c3fa8;
     --dark-color:#002240;
     --light-color:#f4f4f4;
+    --success-color:#5cb85c;
+    --error-color: #d9534f;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -32,6 +34,11 @@ p{
 }
 img{
     width: 100%;
+}
+code,pre{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
  
@@ -217,7 +224,9 @@ margin-left: 10px;
     .showcase .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid {
+    .cloud .grid,
+    .features-main .grid,
+    .docs-main .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -236,6 +245,16 @@ margin-left: 10px;
     .cli .grid >*:first-child {
         grid-column: 1;
         grid-row: 1;
+    }
+    .features-head,
+    .features-sub-head,
+    .docs-head{
+        text-align: center;
+    }
+    .features-head img,
+    .features-sub-head img,
+    .docs-head img {
+        justify-self: center;
     }
 
 
