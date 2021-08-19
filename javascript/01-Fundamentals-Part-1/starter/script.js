@@ -27,3 +27,14 @@ console.log(firstName);
 //descriptive nameing eg
 let firstJob = "developer";
 let secondJob = "CEO";
+
+/*
+  Praxctice section
+
+  1. Decalre a variable called 'country','continent' and 'population' and assign their values acording to ypur own country  (population in millions)
+  2. Log their values to the console.
+ */
+let country = 'India';
+let continent ='Asia';
+let population = '1.38 billion';
+console.log(`The country ${country} is part of the continent of ${continent} and has population around ${population}` )
