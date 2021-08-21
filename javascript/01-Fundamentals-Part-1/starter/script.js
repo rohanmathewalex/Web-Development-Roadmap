@@ -1,11 +1,11 @@
 let js = 'amazing';
-console.log(2+2);
+// console.log(2+2);
 
 //Values and variables
 let firstName = "Rohan"//firstname is the variable and value is rohan 
 
 //Conisder variablr as a box, inside box we can place object and take it when it is necessary, here firstName  is the box and object is Rohan places inside it, so we can acces any time the value rohan from it.
-console.log(firstName);
+// console.log(firstName);
 
 //Convention and rules for naming variables
 /*
@@ -34,7 +34,17 @@ let secondJob = "CEO";
   1. Decalre a variable called 'country','continent' and 'population' and assign their values acording to ypur own country  (population in millions)
   2. Log their values to the console.
  */
-let country = 'India';
-let continent ='Asia';
-let population = '1.38 billion';
-console.log(`The country ${country} is part of the continent of ${continent} and has population around ${population}` )
+// let country = 'India';
+// let continent ='Asia';
+// let population = '1.38 billion';
+// console.log(`The country ${country} is part of the continent of ${continent} and has population around ${population}`)
+
+
+//Datatype and vlaues
+let javasriptIsFun = true;
+console.log(javasriptIsFun);
+console.log(typeof 23);
+console.log(typeof 'rohan');
+//javascript dynamic typing
+ javasriptIsFun = 'Yes!';
+ console.log( javasriptIsFun)
