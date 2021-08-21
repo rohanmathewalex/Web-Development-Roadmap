@@ -48,3 +48,16 @@ console.log(typeof 'rohan');
 //javascript dynamic typing
  javasriptIsFun = 'Yes!';
  console.log( javasriptIsFun)
+ console.log(typeof javasriptIsFun);
+//undefine datatype
+ let year;
+ console.log(year);
+console.log(typeof year)
+
+year = 1998;
+console.log(year);
+console.log(typeof year);
+
+
+//Null
+console.log(typeof null);
