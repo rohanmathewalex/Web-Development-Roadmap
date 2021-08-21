@@ -61,3 +61,18 @@ console.log(typeof year);
 
 //Null
 console.log(typeof null);
+
+
+//Assignment
+/*
+1. Declare a variable called 'isLand' and set its value according to your country. The variable should hold a boolean value. Also declare a vaariable 'language',but dont assign it any value yet.
+2.Log the types of 'isLand','population','country' and 'language' to the console
+ */
+let isLand = false;
+let language;
+let population =10;
+let country = "India";
+console.log(typeof isLand);
+console.log(typeof language);
+console.log(typeof population);
+console.log(typeof country);
