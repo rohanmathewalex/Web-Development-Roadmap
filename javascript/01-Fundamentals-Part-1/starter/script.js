@@ -76,3 +76,19 @@ let secondJob = "CEO";
 // console.log(typeof language);
 // console.log(typeof population);
 // console.log(typeof country);
+
+
+/* 
+Variable Mutation 
+- The variable value may change in future is called variable mutation
+*/
+let age = 30;
+age =31;
+
+/**
+ * constant Varibale
+ * The value will never change in future and if try to cahnge the value we end up with TypeError
+ */
+const birthYear = 1998;
+//birthYear =1997;
+//When try to change value here , we will get an TypeError: Assignment to constant variable
