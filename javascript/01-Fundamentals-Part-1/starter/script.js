@@ -40,27 +40,27 @@ let secondJob = "CEO";
 // console.log(`The country ${country} is part of the continent of ${continent} and has population around ${population}`)
 
 
-//Datatype and vlaues
-let javasriptIsFun = true;
-console.log(javasriptIsFun);
-console.log(typeof 23);
-console.log(typeof 'rohan');
-//javascript dynamic typing
- javasriptIsFun = 'Yes!';
- console.log( javasriptIsFun)
- console.log(typeof javasriptIsFun);
-//undefine datatype
- let year;
- console.log(year);
-console.log(typeof year)
+// //Datatype and vlaues
+// let javasriptIsFun = true;
+// console.log(javasriptIsFun);
+// console.log(typeof 23);
+// console.log(typeof 'rohan');
+// //javascript dynamic typing
+//  javasriptIsFun = 'Yes!';
+//  console.log( javasriptIsFun)
+//  console.log(typeof javasriptIsFun);
+// //undefine datatype
+//  let year;
+//  console.log(year);
+// console.log(typeof year)
 
-year = 1998;
-console.log(year);
-console.log(typeof year);
+// year = 1998;
+// console.log(year);
+// console.log(typeof year);
 
 
 //Null
-console.log(typeof null);
+// console.log(typeof null);
 
 
 //Assignment
@@ -68,11 +68,11 @@ console.log(typeof null);
 1. Declare a variable called 'isLand' and set its value according to your country. The variable should hold a boolean value. Also declare a vaariable 'language',but dont assign it any value yet.
 2.Log the types of 'isLand','population','country' and 'language' to the console
  */
-let isLand = false;
-let language;
-let population =10;
-let country = "India";
-console.log(typeof isLand);
-console.log(typeof language);
-console.log(typeof population);
-console.log(typeof country);
+// let isLand = false;
+// let language;
+// let population =10;
+// let country = "India";
+// console.log(typeof isLand);
+// console.log(typeof language);
+// console.log(typeof population);
+// console.log(typeof country);
