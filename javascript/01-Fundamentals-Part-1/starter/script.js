@@ -92,3 +92,16 @@ age =31;
 const birthYear = 1998;
 //birthYear =1997;
 //When try to change value here , we will get an TypeError: Assignment to constant variable
+
+//Assignment No:3
+/*
+1. Set the value of 'Language' to the language spoken where you live (some countries   have multiplr languages, but just choose one)
+2. Think about which variable should be const variable (which values will never change, and which might change?)Then,change these variables to const.
+3. Try to change one of the changed variable now, and observe what happens
+ */
+
+const language = 'Malayalam';
+const country = 'India';
+const continent = 'Asia';
+let population = "102 billion";
+console.log(`${language} ${country}  ${continent} ${population}`)
