@@ -19,47 +19,83 @@ body {
 }
 .header {
   height: 95vh;
-  background-image:linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
-      rgba(126,213,111,0.8),
-      rgba(40,180,131,0.8)
-  ), url(../img/hero-small.jpg);
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 180, 131, 0.8)
+    ),
+    url(../img/hero-small.jpg);
 
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 75%,0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   position: relative;
 }
-.logo-box{
+.logo-box {
   position: absolute;
   top: 40px;
   left: 40px;
 }
-.logo{
+.logo {
   height: 35px;
 }
-.text-box{
+.text-box {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.heading-primary{
-  color:#ffffff;
+.heading-primary {
+  color: #ffffff;
   text-transform: uppercase;
-
+  /* To hide backpart an element we can use backface-visibilty */
+  backface-visibility: hidden;
 }
-.heading-primary-main{
+.heading-primary-main {
   display: block;
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 
+  /* 
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+   
+  */
 }
-.heading-primary-sub{
+.heading-primary-sub {
   display: block;
   font-size: 20px;
   font-weight: 7s00;
   letter-spacing: 17.4px;
-
+  animation: moveInRight 1s ease-out;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+  80% {
+    transform: translate(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+  80% {
+    transform: translate(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
