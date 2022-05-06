@@ -8,4 +8,4 @@ This project is created as part of learning SASS!
 3. Install live server extension 
 4. open index.html file using live server!
 
-# BoooM Here you Gooo!!!!!
+# BoooM Here you Gooo!!!!!!
